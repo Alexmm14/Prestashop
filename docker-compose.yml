@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  web:
+    image: prestashop/prestashop:latest
+    ports:
+      - "80:80"
+    external_links:
+      - "mariadb:mysql"
+    container_name: prestashop
+
