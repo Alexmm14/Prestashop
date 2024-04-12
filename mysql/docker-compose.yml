@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  mariadb:
+    image: mariadb:10.4
+    restart: always
+    volumes:
+      - ./data:/var/lib/mysql
+    environment:
+      MARIADB_ROOT_PASSWORD: "Admin2024#"
+    container_name: mariadb
