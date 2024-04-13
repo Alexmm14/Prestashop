@@ -7,5 +7,5 @@ services:
     volumes:
       - ./data:/var/lib/mysql
     environment:
-      MARIADB_ROOT_PASSWORD: "Admin2024#"
+      MARIADB_ROOT_PASSWORD: "mysql"
     container_name: mariadb
