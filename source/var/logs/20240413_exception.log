@@ -1,0 +1,4 @@
+*ERROR* 	v8.1.5	2024/04/13 - 07:44:06: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_configuration&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.5	2024/04/13 - 07:44:10: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_shop_url&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.5	2024/04/13 - 23:53:12: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v8.1.5	2024/04/13 - 23:53:12: Link to database cannot be established: SQLSTATE[HY000] [2002] Connection refused at line 119 in file classes/db/DbPDO.php

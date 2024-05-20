@@ -1,0 +1,1 @@
+*ERROR* 	v8.1.5	2024/04/12 - 23:44:05: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;prestashop.ps_cart_product&#039; doesn&#039;t exist at line 151 in file classes/db/DbPDO.php
