@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-04-13 07:40:32
+/* Smarty version 4.3.4, created on 2024-05-19 21:12:26
   from '/var/www/html/themes/classic/templates/_partials/form-errors.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_661a1ad0750688_90268826',
+  'unifunc' => 'content_664abf9a29aaa9_94830982',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3574d51aa4d725ea82c3fcecffbe95f803c8e5bf' => 
     array (
       0 => '/var/www/html/themes/classic/templates/_partials/form-errors.tpl',
-      1 => 1708963242,
+      1 => 1713354804,
       2 => 'file',
     ),
   ),
@@ -20,26 +20,26 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_661a1ad0750688_90268826 (Smarty_Internal_Template $_smarty_tpl) {
+function content_664abf9a29aaa9_94830982 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/html/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if (smarty_modifier_count($_smarty_tpl->tpl_vars['errors']->value)) {?>
   <div class="help-block">
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2044412913661a1ad074c503_97603411', 'form_errors');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1227776510664abf9a299f85_78647147', 'form_errors');
 ?>
 
   </div>
 <?php }
 }
 /* {block 'form_errors'} */
-class Block_2044412913661a1ad074c503_97603411 extends Smarty_Internal_Block
+class Block_1227776510664abf9a299f85_78647147 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'form_errors' => 
   array (
-    0 => 'Block_2044412913661a1ad074c503_97603411',
+    0 => 'Block_1227776510664abf9a299f85_78647147',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

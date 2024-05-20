@@ -9,4 +9,9 @@ services:
     external_links:
       - "mariadb:mysql"
     container_name: prestashop
+    command: >
+      bash -c "
+      chown -R www-data:www-data /var/www/html &&
+      chmod -R 755 /var/www/html &&
+      apache2-foreground"
 
